@@ -220,6 +220,26 @@ h1 {
     grid-row: 2 / 3;
     background-color: red;
 }
+
+.about-section-content-container {
+    display: flex;
+}
+
+.about-section-header {
+    text-align: center;
+}
+
+.about-section-left {
+    width: 50%;
+}
+
+.about-section-right {
+    width: 50%;
+}
+
+.about-section-image {
+    width: 100%;
+}
 /****************************************************************************************************************************/
 /* ABOUT SECTION ENDS */
 /****************************************************************************************************************************/
