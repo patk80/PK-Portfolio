@@ -234,6 +234,10 @@ h1 {
     width: 50%;
 }
 
+.about-section-left h3 {
+    text-align: center;
+}
+
 .about-section-right {
     width: 50%;
 }
