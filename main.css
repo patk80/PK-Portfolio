@@ -254,6 +254,54 @@
     grid-column: 2 / 6;
     grid-row: 3 / 4;
     background-color: yellow;
+
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 1fr 1fr 30px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.project-component {
+    text-align: center;
+}
+
+#project-one {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+#project-two {
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+}
+
+#project-three {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+#project-four {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+}
+
+#project-five {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+
+#project-six {
+    grid-column: 4 / 6;
+    grid-row: 3 / 4;
+}
+
+#project-seven {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+
+#project-eight {
+    grid-column: 4 / 6;
+    grid-row: 4 / 5;
 }
 /****************************************************************************************************************************/
 /* PROJECT SECTION ENDS */
