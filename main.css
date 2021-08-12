@@ -273,6 +273,22 @@ html {
     background-color: purple;
     padding-top: 90px;
 }
+
+.contact-section-content-container {
+    display: flex;
+}
+
+.contact-section-left {
+    width: 50%;
+}
+
+.contact-section-right {
+    width: 50%;
+}
+
+.contact-section-image {
+    width: 100%;
+}
 /****************************************************************************************************************************/
 /* CONTACT SECTION ENDS */
 /****************************************************************************************************************************/
