@@ -41,6 +41,21 @@ html {
     grid-template-columns: 30px 1fr 1fr 1fr 1fr 30px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+
+.blinking-animation {
+    animation: blink ease 3s infinite;
+    width: 20px;
+    height: 5px;
+    background-color: #07bb24;
+    opacity: 0;
+    align-self: flex-end;
+}
+
+@keyframes blink {
+      0% { opacity:0; }
+     50% { opacity:1; }
+    100% { opacity:0; }
+}
 /****************************************************************************************************************************/
 /* UNIVERSAL STYLES END */
 /****************************************************************************************************************************/
@@ -197,6 +212,10 @@ html {
 
 .pat-kelly-h1-text {
     color: #ffffff;
+}
+
+.front-end-developer-flex-container {
+    display: flex;
 }
 
 .front-end-developer-h1-text {
