@@ -46,7 +46,7 @@ html {
     animation: blink ease 3s infinite;
     width: 20px;
     height: 5px;
-    background-color: #07bb24;
+    background-color: #ffffff;
     opacity: 0;
     align-self: flex-end;
 }
