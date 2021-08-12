@@ -75,18 +75,18 @@ html {
     padding: 1em 10%;
 }
 
-.pat-kelly-link {
+#pat-kelly-link {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.pat-kelly-link a {
+#pat-kelly-link a {
     color: #07bb24;
     text-decoration: none;
     transition: color 0.75s;
 }
 
-.pat-kelly-link a:hover {
+#pat-kelly-link a:hover {
     color: #fff;
 }
 
