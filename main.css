@@ -44,11 +44,10 @@ html {
 
 .blinking-animation {
     animation: blink ease 3s infinite;
-    width: 20px;
-    height: 5px;
-    background-color: #ffffff;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
     opacity: 0;
-    align-self: flex-end;
 }
 
 @keyframes blink {
@@ -212,10 +211,6 @@ html {
 
 .pat-kelly-h1-text {
     color: #ffffff;
-}
-
-.front-end-developer-flex-container {
-    display: flex;
 }
 
 .front-end-developer-h1-text {
