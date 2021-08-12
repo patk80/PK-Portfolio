@@ -8,6 +8,11 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
 .button {
     padding: 15px 25px;
     background-color: #000000;
