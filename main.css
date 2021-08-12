@@ -215,6 +215,7 @@
     grid-column: 2 / 6;
     grid-row: 2 / 3;
     background-color: red;
+    padding-top: 90px;
 }
 
 .about-section-content-container {
@@ -250,6 +251,7 @@
     grid-column: 2 / 6;
     grid-row: 3 / 4;
     background-color: yellow;
+    padding-top: 90px;
 }
 /****************************************************************************************************************************/
 /* PROJECT SECTION ENDS */
@@ -264,6 +266,7 @@
     grid-column: 2 / 6;
     grid-row: 4 / 5;
     background-color: purple;
+    padding-top: 90px;
 }
 /****************************************************************************************************************************/
 /* CONTACT SECTION ENDS */
