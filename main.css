@@ -283,7 +283,23 @@ html {
 }
 
 .project-content-component {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-image {
+    width: 50%;
+}
+
+.project-content-component p {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.project-button {
+    margin: 0 10px 0 10px;
 }
 
 .project-1 {
@@ -294,10 +310,6 @@ html {
 .project-2 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-}
-
-.project-image {
-    width: 50%;
 } 
 /****************************************************************************************************************************/
 /* PROJECT SECTION ENDS */
