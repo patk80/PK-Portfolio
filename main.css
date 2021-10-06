@@ -35,10 +35,6 @@ html {
     cursor: pointer;
 }
 
-.about-to-contact-section-container {
-    margin: 0 20px 0 20px;
-}
-
 .blinking-animation {
     animation: blink ease 3s infinite;
     height: 5px;
