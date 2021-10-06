@@ -45,6 +45,7 @@ html {
     width: 30px;
     background-color: #ffffff;
     display: inline-block;
+    margin-left: 5px;
     opacity: 0;
 }
 
