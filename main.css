@@ -199,7 +199,8 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    padding: 5px;
+    background-color: #000000;
 }
 
 .pat-kelly-h1-text {
