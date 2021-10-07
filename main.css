@@ -230,7 +230,7 @@ html {
 /****************************************************************************************************************************/
 #about-section {
     background-color: red;
-    padding-top: 90px;
+    padding: 90px 10px 0 10px;
 }
 
 .about-section-content-container {
@@ -264,7 +264,7 @@ html {
 /****************************************************************************************************************************/
 #projects-section {
     background-color: yellow;
-    padding-top: 90px;
+    padding: 90px 10px 0 10px;
 }
 
 .project-content-component {
@@ -297,7 +297,7 @@ html {
 /****************************************************************************************************************************/
 #contact-section {
     background-color: purple;
-    padding-top: 90px;
+    padding: 90px 10px 0 10px;
 }
 
 .contact-section-content-container {
