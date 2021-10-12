@@ -244,32 +244,32 @@ html {
 }
 
 .about-section-left {
-    padding-left: 30px;
     width: 50%;
 }
 
-.about-section-left h3 {
-    text-align: center;
-    padding-bottom: 40px;
-    color: #ffffff;
-}
-
-.about-section-left ul li{
-    padding-bottom: 10px;
-    color: #07bb24;
-}
-
-.about-section-right {
-    width: 50%;
-}
-
-.about-section-right p {
+.about-section-left-text {
     padding-bottom: 40px;
     color: #07bb24;
 }
 
 .about-section-image {
     width: 100%;
+}
+
+.about-section-right {
+    padding-left: 30px;
+    width: 50%;
+}
+
+.about-section-right h3 {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+
+.about-section-right ul li{
+    padding-bottom: 10px;
+    color: #07bb24;
 }
 /****************************************************************************************************************************/
 /* ABOUT SECTION ENDS */
@@ -366,6 +366,28 @@ html {
 576px for portrait phones 
 */
 /****************************************************************************************************************************/
+@media (max-width: 992px) {
+
+    .about-section-content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-section-left {
+        width: 90%;
+    }
+
+    .about-section-right h3 {
+        padding-top: 40px;
+    }
+
+    .about-section-right {
+        width: 90%;
+    }
+
+}
+
+
 @media (max-width: 465px) {
 
     .hero-section-buttons-div {
