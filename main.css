@@ -249,10 +249,19 @@ html {
 
 .about-section-left h3 {
     text-align: center;
+    padding-bottom: 40px;
+}
+
+.about-section-left ul li{
+    padding-bottom: 10px;
 }
 
 .about-section-right {
     width: 50%;
+}
+
+.about-section-right p {
+    padding-bottom: 40px;
 }
 
 .about-section-image {
