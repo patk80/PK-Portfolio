@@ -48,6 +48,7 @@ html {
 .section-header {
     text-align: center;
     padding: 20px 0 40px 0;
+    color: #ffffff;
 } 
 
 @keyframes blink {
@@ -234,7 +235,7 @@ html {
 /* ABOUT SECTION START */
 /****************************************************************************************************************************/
 #about-section {
-    background-color: red;
+    background-color: #000000;
     padding: 90px 10px 0 10px;
 }
 
@@ -250,10 +251,12 @@ html {
 .about-section-left h3 {
     text-align: center;
     padding-bottom: 40px;
+    color: #ffffff;
 }
 
 .about-section-left ul li{
     padding-bottom: 10px;
+    color: #07bb24;
 }
 
 .about-section-right {
@@ -262,6 +265,7 @@ html {
 
 .about-section-right p {
     padding-bottom: 40px;
+    color: #07bb24;
 }
 
 .about-section-image {
