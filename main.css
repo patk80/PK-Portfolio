@@ -298,7 +298,7 @@ html {
 .single-project-component {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     width: 50%;
 }
 
@@ -406,6 +406,14 @@ html {
 
     .about-section-right {
         width: 90%;
+    }
+
+    .two-projects-combined-component {
+        flex-direction: column;
+    }
+
+    .single-project-component {
+        width: 100%;
     }
 
 }
