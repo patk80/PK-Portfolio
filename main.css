@@ -427,6 +427,15 @@ html {
         flex-direction: column;
     }
 
+    .project-content-component-buttons-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-button {
+        margin: 15px 10px 15px 10px;
+    }
+
 }
 /****************************************************************************************************************************/
 /* MEDIA QUERIES ENDS */
