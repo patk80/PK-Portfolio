@@ -287,8 +287,19 @@ html {
 /* PROJECT SECTION START */
 /****************************************************************************************************************************/
 #projects-section {
-    background-color: yellow;
+    background-color: #000000;
     padding: 90px 10px 20px 10px;
+}
+
+.two-projects-combined-component {
+    display: flex;
+}
+
+.single-project-component {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    width: 50%;
 }
 
 .project-content-component {
@@ -296,15 +307,21 @@ html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
 }
 
 .project-image {
     width: 50%;
 }
 
+.project-content-component h3 {
+    color: #ffffff;
+}
+
 .project-content-component p {
     margin-bottom: 10px;
     padding: 20px;
+    color: #ffffff;
 }
 
 .project-button {
