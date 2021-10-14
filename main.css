@@ -342,7 +342,7 @@ a i {
 /* CONTACT SECTION START */
 /****************************************************************************************************************************/
 #contact-section {
-    background-color: purple;
+    background-color: #000000;
     padding: 90px 10px 20px 10px;
 }
 
@@ -352,6 +352,18 @@ a i {
 
 .contact-section-left {
     width: 50%;
+}
+
+.contact-section-left h3 {
+    color: #ffffff;
+}
+
+.contact-section-content-paragraph {
+    color: #ffffff;
+}
+
+.contact-section-button-paragraph {
+   margin-top: 30px;
 }
 
 .contact-section-right {
