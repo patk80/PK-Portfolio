@@ -439,6 +439,10 @@ a i {
         width: 100%;
     }
 
+    .contact-section-left {
+        width: 90%;
+    }
+
     .contact-section-content-container {
         flex-direction: column;
         align-items: center;
