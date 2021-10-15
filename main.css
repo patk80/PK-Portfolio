@@ -420,7 +420,7 @@ a i {
     }
 
     .about-section-left {
-        width: 90%;
+        width: 100%;
     }
 
     .about-section-right h3 {
@@ -428,7 +428,7 @@ a i {
     }
 
     .about-section-right {
-        width: 90%;
+        width: 100%;
     }
 
     .two-projects-combined-component {
