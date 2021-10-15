@@ -255,7 +255,7 @@ a i {
 
 .about-section-left-text {
     padding-bottom: 40px;
-    color: #07bb24;
+    color: #ffffff;
 }
 
 .about-section-image {
@@ -270,17 +270,17 @@ a i {
 .about-section-right h3 {
     text-align: center;
     padding-bottom: 40px;
-    color: #ffffff;
+    color: #07bb24;
 }
 
 .about-section-right ul li{
     padding-bottom: 10px;
-    color: #07bb24;
+    color: #ffffff;
 }
 
 .about-highlight-text {
     font-weight: 900;
-    color: #ffffff;
+    color: #07bb24;
 }
 /****************************************************************************************************************************/
 /* ABOUT SECTION ENDS */
@@ -320,7 +320,7 @@ a i {
 }
 
 .project-content-component h3 {
-    color: #ffffff;
+    color: #07bb24;
     margin-bottom: 10px;
 }
 
@@ -357,7 +357,7 @@ a i {
 }
 
 .contact-section-left h3 {
-    color: #ffffff;
+    color: #07bb24;
 }
 
 .contact-section-content-paragraph {
