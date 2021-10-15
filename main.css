@@ -50,7 +50,7 @@ html {
     text-align: center;
     padding: 20px 0 40px 0;
     color: #07bb24;
-    font-size: 2em;
+    font-size: 2.25em;
 } 
 
 a i {
@@ -269,6 +269,7 @@ a i {
 
 .about-section-right h3 {
     text-align: center;
+    font-size: 1.5em;
     padding-bottom: 40px;
     color: #07bb24;
 }
@@ -322,6 +323,7 @@ a i {
 .project-content-component h3 {
     color: #07bb24;
     margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
 .project-content-component p {
@@ -358,6 +360,7 @@ a i {
 
 .contact-section-left h3 {
     color: #07bb24;
+    font-size: 1.5em;
 }
 
 .contact-section-content-paragraph {
