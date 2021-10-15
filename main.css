@@ -467,7 +467,7 @@ a i {
 }
 
 
-@media (max-width: 465px) {
+@media (max-width: 576px) {
 
     .hero-section-buttons-div {
         margin-top: 0;
@@ -482,6 +482,14 @@ a i {
 
     .project-button {
         margin: 15px 10px 15px 10px;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .pat-kelly-8-bit-image {
+        width: 200px;
     }
 
 }
