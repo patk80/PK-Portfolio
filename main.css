@@ -498,6 +498,10 @@ a i {
         margin: 15px 10px 15px 10px;
     }
 
+    .contact-section-left {
+        margin-bottom: 40px;
+    }
+
 }
 
 @media (max-width: 460px) {
