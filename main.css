@@ -272,6 +272,7 @@ a i {
 .about-section-left-text {
     padding-bottom: 40px;
     color: #ffffff;
+    line-height: 1.5em;
 }
 
 .about-section-image {
@@ -350,6 +351,7 @@ a i {
     margin-bottom: 10px;
     padding: 20px;
     color: #ffffff;
+    line-height: 1.5em;
 }
 
 .project-button {
