@@ -216,12 +216,19 @@ a i {
     background-color: #000000;
 }
 
-.pat-kelly-8-bit-image-paragraph {
+.hero-section-paragraph {
     text-align: center;
 }
 
 .pat-kelly-8-bit-image {
     width: 50%;
+}
+
+.hero-section-top-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .pat-kelly-h1-text {
