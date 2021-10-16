@@ -80,6 +80,7 @@ a i {
     align-items: center;
     background-color: #000000;
     padding: 1em 10%;
+    z-index: 100;
 }
 
 #pat-kelly-link {
