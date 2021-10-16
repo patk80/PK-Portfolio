@@ -460,6 +460,10 @@ a i {
         width: 90%;
     }
 
+    .contact-section-right {
+        width: 100%;
+    }
+
     .contact-section-content-container {
         flex-direction: column;
         align-items: center;
