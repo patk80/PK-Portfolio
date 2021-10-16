@@ -221,11 +221,7 @@ a i {
 }
 
 .pat-kelly-8-bit-image {
-    width: 300px;
-}
-
-.Pat-Kelly-8-Bit-Image {
-    width: 300px;
+    width: 50%;
 }
 
 .pat-kelly-h1-text {
@@ -491,7 +487,7 @@ a i {
 @media (max-width: 460px) {
 
     .pat-kelly-8-bit-image {
-        width: 200px;
+        width: 50%;
     }
 
 }
