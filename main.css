@@ -370,7 +370,6 @@ a i {
 #contact-section {
     background-color: #000000;
     padding: 90px 80px 20px 80px;
-    height: 100vh;
 }
 
 .contact-section-content-container {
@@ -389,6 +388,19 @@ a i {
 .contact-section-content-paragraph {
     color: #ffffff;
     margin: 20px 0 40px 0;
+}
+
+.form-email-input {
+    display: block;
+    width: 70%;
+    height: 30px;
+}
+
+.form-textarea {
+    display: block;
+    width: 70%;
+    height: 200px;
+    margin: 20px 0 20px 0;
 }
 
 .contact-section-right {
