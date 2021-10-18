@@ -259,7 +259,7 @@ a i {
 /****************************************************************************************************************************/
 #about-section {
     background-color: #000000;
-    padding: 90px 30px 20px 30px;
+    padding: 90px 80px 20px 80px;
 }
 
 .about-section-content-container {
@@ -369,7 +369,7 @@ a i {
 /****************************************************************************************************************************/
 #contact-section {
     background-color: #000000;
-    padding: 90px 30px 20px 30px;
+    padding: 90px 80px 20px 80px;
     height: 100vh;
 }
 
@@ -491,6 +491,10 @@ a i {
         flex-direction: column;
     }
 
+    #about-section {
+        padding: 90px 20px 20px 20px;
+    }
+
     .project-content-component-buttons-container {
         display: flex;
         flex-direction: column;
@@ -506,6 +510,10 @@ a i {
 
     .contact-section-left {
         margin-bottom: 40px;
+    }
+
+    #contact-section {
+        padding: 90px 20px 20px 20px;
     }
 
 }
