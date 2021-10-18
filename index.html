@@ -241,9 +241,12 @@
                     <div class="contact-section-left">
                         <h3>PatK80@gmail.com</h3>
                         <p class="contact-section-content-paragraph">Please email me if you would like to reach out — thank you!</p>
-                        <p class="contact-section-button-paragraph">
-                            <a href="mailto:Patk80@gmail.com" class="button"><i class="fas fa-envelope"></i>Email Pat</a>
-                        </p>
+                        <form action="https://formspree.io/f/mnqlypev" method="POST">
+                            <label>Your email:<input type="email" name="_replyto"></label>
+                            <label>Your message:<textarea name="message"></textarea></label>
+                            <!-- your other form fields go here -->
+                            <button type="submit">Send</button>
+                        </form>
                     </div>
 
                     <div class="contact-section-right">

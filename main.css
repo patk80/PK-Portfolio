@@ -391,10 +391,6 @@ a i {
     margin: 20px 0 40px 0;
 }
 
-.contact-section-button-paragraph {
-   margin-top: 30px;
-}
-
 .contact-section-right {
     width: 50%;
 }
@@ -474,11 +470,6 @@ a i {
         flex-direction: column;
         align-items: center;
     }
-
-    .contact-section-button-paragraph {
-        margin-bottom: 40px;
-        text-align: center;
-     }
 
 }
 
