@@ -398,13 +398,26 @@ button i {
     display: block;
     width: 70%;
     height: 30px;
+    margin-bottom: 20px;
+}
+
+.form-email-input:focus {
+    outline: 2px solid #07bb24;
 }
 
 .form-textarea {
     display: block;
     width: 70%;
     height: 200px;
-    margin: 20px 0 20px 0;
+    margin-bottom: 20px;
+}
+
+.form-textarea:focus {
+    outline: 2px solid #07bb24;
+}
+
+label {
+    color: #07bb24;
 }
 
 .contact-section-right {
