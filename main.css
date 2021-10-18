@@ -58,6 +58,10 @@ a i {
     margin-right: 5px;
 }
 
+button i {
+    margin-right: 5px;
+}
+
 @keyframes blink {
       0% { opacity:0; }
      50% { opacity:1; }
@@ -517,6 +521,14 @@ a i {
 
     #contact-section {
         padding: 90px 20px 20px 20px;
+    }
+
+    .form-email-input {
+        width: 100%;
+    }
+    
+    .form-textarea {
+        width: 100%;
     }
 
 }
