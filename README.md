@@ -1,4 +1,4 @@
 # Pat Kelly Portfolio
-**Languages:** HTML / CSS / jQuery
+**Languages:** HTML / CSS / JavaScript
 
-**Description:** This is a portfolio website I created for myself showcasing my capabilities and projects I've made.
+**Description:** This is a portfolio website I created for myself showcasing my capabilities and projects I have made.
