@@ -76,131 +76,13 @@ button i {
 /****************************************************************************************************************************/
 /* NAVBAR STARTS */
 /****************************************************************************************************************************/
-.navbar {
-    display: flex;
-    position: fixed;
-    width: 100vw;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000000;
-    padding: 1em 10%;
-    z-index: 100;
+.navbar a {
+    color: #ffffff;
 }
 
-#pat-kelly-link {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-#pat-kelly-link a {
-    color: #07bb24;
-    text-decoration: none;
-    transition: color 0.75s;
-}
-
-#pat-kelly-link a:hover {
-    color: #fff;
-}
-
-.navbar-links {
-    height: 100%;
-}
-
-.navbar-links ul {
-    display: flex;
-}
-
-.navbar-links li {
-    list-style: none;
-    border-radius: 50px;
-}
-
-.navbar-links li:hover {
-    transition: all 3s;
-}
-
-.navbar-links li a {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    padding: 1rem;
-    font-weight: lighter;
-    letter-spacing: 0.15em;
-    transition: color 0.75s;
-}
-
-.navbar-links li a:hover {
-    color: #07bb24;
-}
-
-.toggle-button {
-    display: none;
-}
-
-.bar {
+.navbar-toggler-icon{
+    color: #ffffff;
     background-color: #07bb24;
-    height: 3px;
-    width: 35px;
-    transition: all 0.75s;
-}
-
-.bar-1-active {
-    background-color: #fff;
-    transform: rotate(-45deg) translate(-30%, 280%);
-}
-
-.bar-2-active {
-    opacity: 0;
-}
-
-.bar-3-active {
-    background-color: #fff;
-    transform: rotate(45deg) translate(-30%, -280%);
-}
-
-@media (max-width: 840px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        position: absolute;
-        top: 15px;
-        right: 45px;
-        display: flex;
-        height: 30px;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: 0.5rem 1rem;
-    }
-
-    .navbar-links ul li a:hover {
-        color: #07bb24;
-        transition: color 0.6s;
-        background-color: none;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
 }
 /****************************************************************************************************************************/
 /* NAVBAR ENDS */
@@ -223,6 +105,13 @@ button i {
 .hero-section-buttons-div {
     display: flex;
     justify-content: space-around;
+}
+
+
+@media screen and (max-width: 480px) {
+    .hero-section-buttons-div {
+        flex-direction: column;
+    }
 }
 /****************************************************************************************************************************/
 /* HERO SECTION ENDS */
@@ -259,50 +148,6 @@ button i {
     display: flex;
     justify-content: space-around;
 }
-
-/* .two-projects-combined-component {
-    display: flex;
-}
-
-.single-project-component {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 80px;
-    width: 50%;
-}
-
-.project-content-component {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-}
-
-.project-image {
-    width: 70%;
-    border: 3px solid #07bb24;
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px 2px #808080;
-}
-
-.project-content-component h3 {
-    color: #07bb24;
-    margin-bottom: 10px;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.project-content-component p {
-    margin-bottom: 10px;
-    padding: 20px;
-    color: #ffffff;
-    line-height: 1.5em;
-}
-
-.project-button {
-    margin: 0 10px 0 10px;
-} */
 /****************************************************************************************************************************/
 /* PROJECT SECTION ENDS */
 /****************************************************************************************************************************/
@@ -343,121 +188,4 @@ button i {
 }
 /****************************************************************************************************************************/
 /* FOOTER SECTION ENDS */
-/****************************************************************************************************************************/
-
-
-
-/****************************************************************************************************************************/
-/* MEDIA QUERIES START */
-
-/* 
-1200px for large devices
-992px for laptops
-768px for tablets
-576px for portrait phones 
-*/
-/****************************************************************************************************************************/
-@media (max-width: 992px) {
-
-    .about-section-content-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about-section-left {
-        width: 100%;
-    }
-
-    .about-section-right h3 {
-        padding-top: 40px;
-    }
-
-    .about-section-right {
-        width: 100%;
-    }
-
-    .two-projects-combined-component {
-        flex-direction: column;
-    }
-
-    .single-project-component {
-        width: 100%;
-    }
-
-    .contact-section-left {
-        width: 90%;
-    }
-
-    .contact-section-right {
-        width: 100%;
-    }
-
-    .contact-section-content-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-}
-
-
-@media (max-width: 576px) {
-
-    .hero-section-buttons-div {
-        margin-top: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #about-section {
-        padding: 90px 20px 20px 20px;
-    }
-
-    .project-content-component-buttons-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .project-image {
-        width: 100%;
-    }
-
-    .project-button {
-        margin: 15px 10px 15px 10px;
-    }
-
-    .contact-section-left {
-        margin-bottom: 40px;
-    }
-
-    #contact-section {
-        padding: 90px 20px 20px 20px;
-    }
-
-    .form-email-input {
-        width: 100%;
-    }
-    
-    .form-textarea {
-        width: 100%;
-    }
-
-}
-
-@media (max-width: 460px) {
-
-    .pat-kelly-8-bit-image {
-        width: 50%;
-    }
-
-}
-
-@media (max-width: 350px) {
-
-    h1 {
-        font-size: 1.25em;
-    }
-
-}
-/****************************************************************************************************************************/
-/* MEDIA QUERIES ENDS */
 /****************************************************************************************************************************/
