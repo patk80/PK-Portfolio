@@ -217,40 +217,12 @@ button i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 10px 0 10px;
     background-color: #000000;
 }
 
-.hero-section-paragraph {
-    text-align: center;
-}
-
-.pat-kelly-8-bit-image {
-    width: 50%;
-}
-
-.hero-section-top-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.pat-kelly-h1-text {
-    color: #ffffff;
-}
-
-.front-end-developer-h1-text {
-    display: block;
-    color: #07bb24;
-}
-
 .hero-section-buttons-div {
-    margin-top: 30px;
-}
-
-.hero-button {
-    margin: 15px;
+    display: flex;
+    justify-content: space-around;
 }
 /****************************************************************************************************************************/
 /* HERO SECTION ENDS */
