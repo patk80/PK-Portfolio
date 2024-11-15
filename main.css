@@ -337,59 +337,15 @@ button i {
 /****************************************************************************************************************************/
 #contact-section {
     background-color: #000000;
-    padding: 90px 80px 20px 80px;
-}
-
-.contact-section-content-container {
-    display: flex;
-}
-
-.contact-section-left {
-    width: 50%;
-}
-
-.contact-section-left h3 {
-    color: #07bb24;
-    font-size: 1.5em;
-}
-
-.contact-section-content-paragraph {
-    color: #ffffff;
-    margin: 20px 0 40px 0;
-}
-
-.form-email-input {
-    display: block;
-    width: 70%;
-    height: 30px;
-    margin-bottom: 20px;
+    /* padding: 90px 80px 20px 80px; */
 }
 
 .form-email-input:focus {
     outline: 2px solid #07bb24;
 }
 
-.form-textarea {
-    display: block;
-    width: 70%;
-    height: 200px;
-    margin-bottom: 20px;
-}
-
 .form-textarea:focus {
     outline: 2px solid #07bb24;
-}
-
-label {
-    color: #07bb24;
-}
-
-.contact-section-right {
-    width: 50%;
-}
-
-.contact-section-image {
-    width: 100%;
 }
 /****************************************************************************************************************************/
 /* CONTACT SECTION ENDS */
