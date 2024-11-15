@@ -263,46 +263,10 @@ button i {
 /****************************************************************************************************************************/
 #about-section {
     background-color: #000000;
-    padding: 90px 80px 20px 80px;
+    /* padding: 90px 80px 20px 80px; */
 }
 
-.about-section-content-container {
-    display: flex;
-}
-
-.about-section-left {
-    width: 50%;
-}
-
-.about-section-left-text {
-    padding-bottom: 40px;
-    color: #ffffff;
-    line-height: 1.5em;
-}
-
-.about-section-image {
-    width: 100%;
-}
-
-.about-section-right {
-    padding-left: 30px;
-    width: 50%;
-}
-
-.about-section-right h3 {
-    text-align: center;
-    font-size: 1.5em;
-    padding-bottom: 40px;
-    color: #07bb24;
-}
-
-.about-section-right ul li{
-    padding-bottom: 10px;
-    color: #ffffff;
-}
-
-.about-highlight-text {
-    font-weight: 900;
+.green-text {
     color: #07bb24;
 }
 /****************************************************************************************************************************/
