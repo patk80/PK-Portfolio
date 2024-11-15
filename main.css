@@ -280,10 +280,15 @@ button i {
 /****************************************************************************************************************************/
 #projects-section {
     background-color: #000000;
-    padding: 90px 10px 20px 10px;
+    /* padding: 90px 10px 20px 10px; */
 }
 
-.two-projects-combined-component {
+.project-content-component-buttons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .two-projects-combined-component {
     display: flex;
 }
 
@@ -325,7 +330,7 @@ button i {
 
 .project-button {
     margin: 0 10px 0 10px;
-}
+} */
 /****************************************************************************************************************************/
 /* PROJECT SECTION ENDS */
 /****************************************************************************************************************************/
