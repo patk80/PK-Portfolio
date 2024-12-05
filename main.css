@@ -153,6 +153,7 @@ button i {
 .project-content-component-buttons-container {
     display: flex;
     justify-content: space-around;
+    margin-top: auto;
 }
 /****************************************************************************************************************************/
 /* PROJECT SECTION ENDS */
