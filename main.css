@@ -87,6 +87,10 @@ button i {
     color: #ffffff;
 }
 
+.navbar a:hover {
+    color: #07bb24;
+}
+
 .navbar-brand {
     color: #07bb24 !important;
 }
